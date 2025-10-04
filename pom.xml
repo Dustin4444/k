@@ -78,7 +78,7 @@
     <scala.minorVersion>13</scala.minorVersion>
     <scala.version>${scala.majorVersion}.${scala.minorVersion}</scala.version>
     <spotless.version>2.41.1</spotless.version>
-    <googleJavaFormat.version>1.18.1</googleJavaFormat.version>
+    <googleJavaFormat.version>1.28.0</googleJavaFormat.version>
     <scalafmt.version>3.7.17</scalafmt.version>
     <nativeDirs>**/src/main/native/**</nativeDirs>
     <spotless.excludes>${nativeDirs},.idea/**,**/com/davekoelle/**,**/target/**,LICENSE.md,web/toc.md,web/k-web-theme/**,**/*-kompiled/*.kore,k-distribution/include/kframework/kore/*,**/.kompile-*/**,**/.git/**,result/**,pyk/**,nix/resources/**</spotless.excludes>
@@ -409,8 +409,8 @@
         <native.classifier>linux64</native.classifier>
         <native.os.classifier>linux</native.os.classifier>
         <native.exe.type>uexe</native.exe.type>
-        <native.exe.extension />
-        <native.script.extension />
+        <native.exe.extension/>
+        <native.script.extension/>
         <make.args>--output-sync</make.args>
       </properties>
     </profile>
@@ -428,10 +428,10 @@
         <native.classifier>osx</native.classifier>
         <native.os.classifier>osx</native.os.classifier>
         <native.exe.type>uexe</native.exe.type>
-        <native.exe.extension />
-        <native.script.extension />
+        <native.exe.extension/>
+        <native.script.extension/>
         <prefix.path>/usr/local/opt/llvm/;/usr/local/opt/flex;/usr/local/opt/libffi</prefix.path>
-        <make.args />
+        <make.args/>
       </properties>
     </profile>
   </profiles>
