@@ -54,7 +54,7 @@ dev = [
     "mypy",
     "pep8-naming",
     "pydocstyle",
-    "pytest>=7,<8",
+    "pytest>=9.0.3,<10",
     "pytest-cov",
     "pytest-mock",
     "pytest-xdist",
