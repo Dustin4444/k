@@ -16,7 +16,7 @@
   "author": "K | Runtime Verification",
   "license": "UNLICENSED",
   "devDependencies": {
-    "http-server": "^0.12.3"
+    "http-server": "^0.13.0"
   },
   "dependencies": {
     "k-web-theme": "file:k-web-theme"
